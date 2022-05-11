@@ -1,0 +1,201 @@
+/*navgation icon background color added*/
+.nav {
+    background-color: #101e38;
+    z-index: 9;
+    display: flex;
+    box-shadow: 0px 5px 50px 0px black;
+}
+body{
+    background-color: #a6a6a6;
+}
+
+/*border around navigation bar removed*/
+.nav_edit {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+/*logo assigned to left with 50% size*/
+.logo {
+    float: left;
+    width: 50%;
+}
+
+/*nav menu arranged to left*/
+.nav_menu {
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+
+/*nav bar text color change*/
+.nav_menu a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #ECF0F1;
+}
+
+.nav_menu a:hover {
+    color: #ff1616;
+}
+.main{
+    background-image: url("images/tailor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+}
+.main .avis_content{
+    padding-top: 400px;
+    text-align: center;
+    left: 0;
+    right: 0;
+
+}
+.main .avis_content h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black;
+}
+.main .avis_content h2{
+    color: #3498DB;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 3px 8px black;
+}
+.main .avis_content p{
+    color: #ff1616;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 3px 8px black;
+    margin-left: 80px;
+}
+.our_services{
+    padding-bottom: 60px;
+}
+.our_services h2{
+    color:#101e38;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 50px;
+
+}
+.our_services .services_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.our_services .services_container .work{
+    width: 20%;
+    margin: 20px;
+    height: auto;
+
+}
+.our_services .services_container .work .service_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border-style: solid;
+    overflow: hidden;
+    object-fit: cover;
+}
+.our_services .services_container .work .service_img img{
+    width: 100%;
+    height: 100%;
+}
+.our_services .services_container .work .text_edit{
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    text-align: 20px;
+}
+.our_services .services_container .work .service_img:hover{
+    border-color: whitesmoke;
+    box-shadow: 0px 3px 65px 0px black;
+}
+h2{
+    padding-bottom: 30px;
+    text-align: center;
+    color: #101e38;
+    font-family:'Poppins', sans-serif;
+}
+.about_us{
+    background-image: url("images/aboutus.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+.about_us .about_content{
+    text-align: center;
+    padding-top: 200px;
+    left:0;
+    right: 0;
+}
+.about_us .about_content p{
+    color: whitesmoke;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 8px black;
+}
+span{
+    font-weight: bold;
+    color: #ff1616;
+}
+.about_us .about_content i{
+color: #F4D03F;
+}
+.contact{
+    display: flex;
+}
+.contact .container h3 p{
+    float: right;
+}
+.content{
+    padding-bottom: 30px;
+}
+.content h2{
+    color:#101e38;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+.content .container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.content .container .box{
+    width: 33.33%;
+    margin: 30px;
+}
+.content .container .box .text{
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+}
+.content .container .box .text:hover{
+    text-shadow: 3px 3px 8px #808B96;
+}
+.ending{
+    background-color: #101e38;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ending p{
+    text-align: center;
+    color: #ECF0F1;
+    font-family:'Poppins', sans-serif;
+
+}
