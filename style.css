@@ -47,7 +47,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     left: 0;
     right: 0;
     object-fit: cover;
@@ -132,7 +132,7 @@ h2{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 100vh;
     left: 0;
     right: 0;
     object-fit: cover;
@@ -185,9 +185,15 @@ color: #F4D03F;
     font-family:'Poppins', sans-serif;
     text-align: center;
 }
+.content .container .box .text h3{
+    color: #101e38;
+}
 .content .container .box .text:hover{
     text-shadow: 3px 3px 8px #808B96;
+
 }
+
+
 .ending{
     background-color: #101e38;
     margin-left: 0;
